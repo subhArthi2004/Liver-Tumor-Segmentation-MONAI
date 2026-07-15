@@ -3,9 +3,13 @@ torchvision
 monai
 numpy
 matplotlib
-nibabel
-scikit-image
-opencv-python
-tqdm
 pandas
+opencv-python
+scikit-image
+scipy
+nibabel
+dicom2nifti
+tqdm
+Pillow
 jupyter
+ipykernel
