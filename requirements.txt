@@ -1,1 +1,11 @@
-
+torch
+torchvision
+monai
+numpy
+matplotlib
+nibabel
+scikit-image
+opencv-python
+tqdm
+pandas
+jupyter
