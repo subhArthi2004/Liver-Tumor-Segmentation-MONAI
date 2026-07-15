@@ -1,14 +1,14 @@
 # 🩺 Liver & Tumor Segmentation using MONAI
 
-This project uses **Artificial Intelligence (AI)** to automatically detect and segment the **liver** and **liver tumors** from CT scan images using a **3D U-Net** model built with **MONAI** and **PyTorch**.
+An AI-powered medical imaging project that automatically detects and segments the **liver** and **liver tumors** from CT scan images using a **3D U-Net** model built with **MONAI** and **PyTorch**.
 
 ---
 
 ## 🚀 Features
 
 - Automatic liver segmentation
-- Liver tumor detection
-- 3D U-Net deep learning model
+- Automatic liver tumor detection
+- 3D U-Net architecture
 - Built with MONAI and PyTorch
 - Medical image preprocessing
 - Dice Score evaluation
@@ -22,6 +22,7 @@ This project uses **Artificial Intelligence (AI)** to automatically detect and s
 - MONAI
 - NumPy
 - Matplotlib
+- Nibabel
 - Jupyter Notebook
 
 ---
@@ -30,56 +31,83 @@ This project uses **Artificial Intelligence (AI)** to automatically detect and s
 
 **LiTS (Liver Tumor Segmentation Challenge)**
 
-The dataset contains CT scan images and corresponding segmentation masks.
+> The dataset is not included in this repository because of its large size.
 
-> **Note:** The dataset is not included in this repository because of its large size.
+---
+
+## 📸 Project Workflow
+
+### Workflow
+
+![Workflow](images/workflow.png)
+
+### Model Architecture
+
+![Architecture](images/architecture.png)
+
+### Training Performance
+
+![Training Curve](images/training_curve.png)
+
+### Segmentation Results
+
+![Segmentation Result](images/segmentation_result.png)
+
+### Dice Score
+
+![Dice Score](images/dice_score.png)
+
+---
+
+## 📊 Results
+
+- Mean Dice Score: **0.9644**
+- Accurate liver and tumor segmentation
+- Stable training and validation performance
 
 ---
 
 ## ▶️ How to Run
 
-1. Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Liver-Tumor-Segmentation.git
+git clone https://github.com/subhArthi2004/Liver-Tumor-Segmentation-MONAI.git
 ```
 
-2. Open the project folder
+Go to the project folder:
 
 ```bash
-cd Liver-Tumor-Segmentation
+cd Liver-Tumor-Segmentation-MONAI
 ```
 
-3. Install the required libraries
+Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Open the notebook
+Launch Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
 
-5. Run **Liver_Tumor_Segmentation.ipynb**
+Open:
+
+```text
+Liver_Tumor_Segmentation.ipynb
+```
+
+Run all the cells.
 
 ---
 
-## 📸 Sample Results
+## 📄 Research Paper
 
-- Input CT Scan
-- Ground Truth Mask
-- Predicted Segmentation
+The complete research paper explaining the methodology, model architecture, experiments, and results is included in this repository.
 
----
-
-## 🎯 Applications
-
-- Medical Image Analysis
-- Liver Cancer Detection
-- AI-assisted Diagnosis
-- Deep Learning Research
+**Research_Paper.pdf**
 
 ---
 
@@ -89,4 +117,4 @@ jupyter notebook
 
 AI | Machine Learning | Computer Vision
 
-⭐ If you found this project useful, please consider giving it a star.
+If you found this project useful, consider giving it a ⭐.
